@@ -1,4 +1,4 @@
-Text Conversion To Sound!
+8Text Conversion To Sound!
 
 Project implementation steps:
 
@@ -7,5 +7,3 @@ Project implementation steps:
 2: Write the following commands:
 
     pip install requirements.txt
-
-    python app.py
