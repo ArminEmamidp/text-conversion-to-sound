@@ -14,7 +14,7 @@ class App(Tk):
         super().__init__()
 
         # Window properties
-        self.title('Text Conversion')
+        self.title('Text Conversion To Sound')
         self.config(bg='lightgreen')
         self.geometry('600x550')
 
@@ -25,11 +25,11 @@ class App(Tk):
         app_frame = Frame(self, bg='#eee')
         app_frame.pack(side='top', fill='x', padx=22, pady=40, ipadx=10, ipady=10)
         
-        # Button of text-conversion to sound
-        sound_play_btn = Button(app_frame, text='Play Sound', fg='black', bg='lightpink', font=font_2, width=20, borderwidth=4, command=self.saySound)
-        sound_play_btn.pack(side='bottom', padx=10, pady=10, ipady=8, fill='x')
+        # Button of Conversion 
+        conversion_btn = Button(app_frame, text='Play Sound', fg='black', bg='lightpink', font=font_2, width=20, borderwidth=4, command=self.saySound)
+        conversion_btn.pack(side='bottom', padx=10, pady=10, ipady=8, fill='x')
 
-        # box input for user input
+        # user input box
         self.user_text = Text(app_frame, bg='lightgray', fg='black', font=font_1)
         self.user_text.pack(side='top', fill='x', padx=10, pady=10)
 
